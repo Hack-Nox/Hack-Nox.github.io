@@ -1,0 +1,140 @@
+
+
+/* Estilos para el cuerpo de la página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(Background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.fondo-pagina {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.459);
+    border-radius: 10px;
+}
+
+.LogoHome:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.info {
+    justify-content: center;
+    margin-trim: 5px;
+}
+
+header img {
+    max-width: 100px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+/* Estilos para el contenido principal */
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+/* Estilos para las secciones */
+section {
+    margin-bottom: 40px;
+}
+
+section h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#destinos {
+    overflow: scroll; /* Hace la tabla responsiva */
+    width: 100%;
+}
+
+/* Estilos para la tabla de resumen de platillos */
+.Resumen-Platillos {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.Resumen-Platillos th,
+.Resumen-Platillos td {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+.Resumen-Platillos th {
+    background-color: #333;
+    color: white;
+    text-align: left;
+}
+
+.Resumen-Platillos td {
+    text-align: left;
+    background-color: white;
+}
+
+.Resumen-Platillos tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.Resumen-Platillos a {
+    color: #333;
+    font-weight: bold;
+}
+
+.Resumen-Platillos a:hover {
+    text-decoration: underline;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
+
+
+@media screen and (max-width: 768px) {
+    
+    .fondo-pagina {
+        max-width: 90%; /* Hacer el fondo de página responsivo */
+    }
+
+    header img {
+        max-width: 80px;
+    }
+
+    header h1 {
+        font-size: 24px;
+    }
+
+    .Resumen-Platillos {
+        font-size: 14px;
+    }
+}
