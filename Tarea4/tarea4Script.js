@@ -101,7 +101,7 @@ alert("El número " + numero + " en binario es: " + binario);
 
 function puedeManejar() {
 
-    var edad = document.getElementById('texto5').value.trim();
+    var edad = document.getElementById('texto10').value.trim();
     var tieneLicencia = document.getElementById('Tiene').value;
 
     if (parseInt(edad) >= 18 && tieneLicencia === 'true') {
