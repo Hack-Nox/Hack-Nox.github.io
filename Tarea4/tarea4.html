@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea 4</title>
+    <script src="tarea4Script.js"></script>
+    <link rel="stylesheet" href="Styletraea4.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Tareas 5 Ejercicios</h1>
+    </header>
+
+    <h1>If else</h1>
+    <p>Este validador de numero  es sencillo dice si el numero digitado es positivo, negativo o 0.</p>
+
+    <input id="texto1" type="text">
+    <input type="button" onclick=determinarSigno() value="Aceptar">
+
+    <h1>Switch</h1>
+    <p>Se colocan numeros del 1 a 7 para mostrar los dias de la semana como alerta, <br>
+        en caso de que no este en ese rango saldra "dia invalido" </p>
+
+    <input id="texto2" type="text">
+    <input type="button" onclick=obtenerDiaSemana() value="Aceptar">
+
+    <h1>Try/Catch</h1>
+    <p>De igual manera es sencillo se introduccen 2 numeros para dividir y se mostrara como alerta el resultado,<br>
+    para que suceda el error es dividiendo un numero cualquiera por cero</p>
+
+    <p>
+        <input id="texto3" type="text">
+        /
+        <input id="texto4" type="text">
+        <input type="button" onclick=dividir() value="Aceptar">
+
+    </p>
+
+    <h1>For</h1>
+    <input type="button" onclick=conteoConFor() value="Aceptar">
+
+
+    <h1>While</h1>
+    <p>Se coloca cualquier numero y se convierte en binario</p>
+
+    <input id="texto5" type="text">
+    <input type="button" onclick=binario() value="Aceptar">
+
+
+    <h1>Operadores logicos</h1>
+
+    <h1>con &&</h1>
+
+    <p>En este caso, elegi como ejemplo que el sujeto tiene que ser mayor de edad y tener licencia <br>
+    debe de cumplir con ambas, Caso contrario no puede conducir</p>
+
+    <p>
+ <input id="texto5" type="number">
+
+ tiene licencia?
+    <select name="Licencia" id="Tiene">
+        <option value="true">SI</option>
+        <option value="false">NO</option>
+    </select>
+
+    <input type="button" onclick=puedeManejar() value="Aceptar">
+
+    </p>
+   
+
+    <h1>con ||</h1>
+
+    <p>
+        En este caso pregunta si va llover o esta nevando, cualquiera de los 2 si se cumplen <br> 
+         muestra alerta de llevar paraguas o abrigo, 
+         caso contrario que salga sin proteccion
+    </p>
+
+    <p> Va a llover?
+        <select name="Tiempo" id="Lluvia">
+            <option value="true">SI</option>
+            <option value="false">NO</option>
+        </select>
+        Esta nevando?
+        <select name="Tiempo" id="Nevando">
+            <option value="true">SI</option>
+            <option value="false">NO</option>
+        </select>
+
+        <input type="button" onclick=PuedesalirCasa() value="Aceptar">
+
+
+    </p>
+
+    <h1>Objeto fecha</h1>
+
+    Se obtiene la fecha de hoy <br> <br>
+
+    <input type="button" onclick=obtenerInformacionFecha() value="Obtener la fecha de Hoy">
+
+    <h1>Arreglos</h1>
+    
+    <p>En este caso se tiene una palabra que es "CARTERA", la cual en la casilla se introduce el indice a solicitar  </p>
+
+
+    <input id="texto6" type="text">
+    <input type="button" onclick=obtenerCaracter() value="Aceptar">
+
+    <h1>Introduccir nombres a un arreglo</h1>
+    <p>Se puede agregar un nombre mas a el array </p>
+    <p> se puede revisar antes de ejecutar tocando el boton de aceptar</p>
+
+    <input id="texto7" type="text">
+    <input type="button" onclick=agregarNombre() value="Aceptar">
+
+    <h1>Cambiar un numero o dato dentro del array</h1>
+
+    <p>tal como lo dice el titulo este ejercicio sirve para cambiar un numero, <br>se digita primero el indice a cambiar y despues el numero que quieras colocar en el array</p>
+<p> se puede revisar antes de ejecutar tocando el boton de aceptar</p>
+    <input id="texto8" type="text">
+    <input id="texto9" type="text">
+    <input type="button" onclick=CambiarDatoArray() value="Aceptar">
+
+    <br>
+     <br>
+
+
+
+     <footer>
+        <p>&copy; 2024 Brandon Barrantes</p>
+    </footer>
+</body>
+
+</html>
