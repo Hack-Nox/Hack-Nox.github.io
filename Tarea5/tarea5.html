@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Tarea Calculadoras</title>
+    <meta name="description" content="El Website de los Zaguates" />
+    <meta name="keywords" content="Zaguate, perro, perrito, adoptar," />
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="Css/tarea5.css" />
+
+</head>
+
+<body>
+    <main id="site_content">
+
+        <article class="tablaArticulo">
+
+            <form name="calculator" class="calc">
+                <h3>Calculadora Temperatura</h3>
+                <input type="textfield" name="ans" value="">
+                <br>
+                <input type="textfield" placeholder="Ingrese los Celsius" name="res" value="">
+                <br>
+                <input type="button" value="Convertir Fahrenheit" onclick="converFahrenheit()">
+                <input type="button" value="Convertir Kelvin" onclick="converKelvin()">
+                <br>
+                <input type="button" value="1" onclick="concatenaOperacion('1')">
+                <input type="button" value="2" onclick="concatenaOperacion('2')">
+                <input type="button" value="3" onclick="concatenaOperacion('3')">
+
+                <br>
+                <input type="button" value="4" onclick="concatenaOperacion('4')">
+                <input type="button" value="5" onclick="concatenaOperacion('5')">
+                <input type="button" value="6" onclick="concatenaOperacion('6')">
+
+                <br>
+                <input type="button" value="7" onclick="concatenaOperacion('7')">
+                <input type="button" value="8" onclick="concatenaOperacion('8')">
+                <input type="button" value="9" onclick="concatenaOperacion('9')">
+
+                <br>
+                <input type="button" value="0" onclick="concatenaOperacion('0')">
+                <input type="reset" value="C">
+            </form>
+
+        </article>
+
+
+        <article class="tablaArticulo">
+
+            <form name="calculator2" class="calc">
+                <h3>Calculadora Distancia</h3>
+
+                <input type="textfield" name="ans" value="">
+                <br>
+                <input type="textfield" placeholder="Ingrese los Kilometros" name="res" value="">
+                <br>
+                <input type="button" value="Convertir Millas" onclick="converMillas()">
+                <input type="button" value="Convertir Metros" onclick="converMetros()">
+                <br>
+                <input type="button" value="1" onclick="concatenaOperacion2('1')">
+                <input type="button" value="2" onclick="concatenaOperacion2('2')">
+                <input type="button" value="3" onclick="concatenaOperacion2('3')">
+
+                <br>
+                <input type="button" value="4" onclick="concatenaOperacion2('4')">
+                <input type="button" value="5" onclick="concatenaOperacion2('5')">
+                <input type="button" value="6" onclick="concatenaOperacion2('6')">
+
+                <br>
+                <input type="button" value="7" onclick="concatenaOperacion2('7')">
+                <input type="button" value="8" onclick="concatenaOperacion2('8')">
+                <input type="button" value="9" onclick="concatenaOperacion2('9')">
+
+                <br>
+                <input type="button" value="0" onclick="concatenaOperacion2('0')">
+                <input type="reset" value="C">
+
+            </form>
+
+        </article>
+
+
+        <article class="tablaArticulo">
+
+            <form name="calculator3" class="calc">
+                <h3>Calculadora IMC</h3>
+                <input type="textfield" placeholder="Ingrese la Altura y pulse Aceptar" name="ans" value="">
+                <input type="button" value="Aceptar" onclick="toggleInputActivo()">
+                <input type="textfield" placeholder="Ingrese el Peso y pulse en Convertir"  name="ans2" value="">
+                <br>
+                <input type="textfield" placeholder="" name="res" value="">
+                <br>
+                <input type="button" value="Convertir MBI" onclick="calculaIMC()">
+                <br>
+                <input type="button" value="1" onclick="concatenaOperacion3('1')">
+                <input type="button" value="2" onclick="concatenaOperacion3('2')">
+                <input type="button" value="3" onclick="concatenaOperacion3('3')">
+
+                <br>
+                <input type="button" value="4" onclick="concatenaOperacion3('4')">
+                <input type="button" value="5" onclick="concatenaOperacion3('5')">
+                <input type="button" value="6" onclick="concatenaOperacion3('6')">
+
+                <br>
+                <input type="button" value="7" onclick="concatenaOperacion3('7')">
+                <input type="button" value="8" onclick="concatenaOperacion3('8')">
+                <input type="button" value="9" onclick="concatenaOperacion3('9')">
+
+                <br>
+                <input type="button" value="0" onclick="concatenaOperacion3('0')">
+                <input type="button" value="." onclick="concatenaOperacion3('.')">
+                <input type="reset" value="C">
+            </form>
+
+        </article>
+    </main>
+    </div>
+    </div>
+    <script src="tarea5.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+form {
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: solid 1px #c2c2c2;
+    padding-bottom: 10px;
+    margin: auto;
+    background: #fafafa;
+    margin-bottom:20px;
+    margin-top:20px;
+  }
+  input[type=textfield] {
+      width: 73%;
+      padding: 16px 32px;
+      font-size: 16px;
+      border: 1px solid silver;
+      border-radius: 1px;
+      text-align: right;
+      color: #333;
+      background: white;
+  }
+  
+  input[type=button], input[type=submit], input[type=reset] {
+      background-color: yellowgreen;
+      border: none;
+      color: white;
+      padding: 16px 32px;
+      font-size: 16px;
+      min-width: 21%;
+      text-decoration: none;
+      margin: 4px 2px;
+      cursor: pointer;
+  }
+  input[type=button]:hover, input[type=submit]:hover, input[type=reset]:hover {
+    background-color: green;
+  }
+  
+  .calc h3 {  
+    font: normal 200% arial, sans-serif;
+    text-shadow: 1px 1px #FFF;
+    padding: 15px 20px 5px 0;
+    color: aquamarine;
+    text-align:center;
+  }
+
+  body{
+    margin: 0;
+    padding: 0;
+    background-image: url(Fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+  }
+
+  .calc{
+background-color: #3f393b;
+  }
+
+  .calc .textfield{
+
+    padding-bottom: 1px;
+
+  }
+
+#site_content{
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  justify-content: space-between;
+}
