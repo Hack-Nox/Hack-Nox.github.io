@@ -1,0 +1,273 @@
+/* Estilo para el fondo del navegador */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+    background-image: url('../Img/Background.png');
+    background-size: cover;
+    /* Escalar la imagen para cubrir todo el fondo */
+    background-position: center;
+
+}
+
+.Container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 70%;
+        
+}
+
+
+
+/* Estilo para el encabezado */
+header {
+    width: 100px;
+    margin: 0 auto;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+
+
+
+
+nav li:hover {
+    border-bottom: 2px solid #258EA3;
+}
+
+
+
+
+aside {
+    width: 30%;
+    margin-right: 3px;
+    text-align: justify;
+    float: left;
+    margin-bottom: 12px;
+    background-image: none;
+    padding: 16px;
+    background-color: #f1efefad;
+    border: 1px solid #ccc;
+}
+
+header img {
+    width: 200px;
+
+}
+
+aside h1 {
+    text-align: left;
+}
+
+aside h2 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 12px;
+    text-align: left;
+    cursor: pointer;
+}
+
+aside p {
+    font-weight: bold;
+    font-size: medium;
+    color: #7a6d6d;
+    text-decoration: none;
+}
+
+aside h2:hover {
+    text-decoration: underline;
+}
+
+
+main {
+    margin: 0;
+    width: 65%;
+    float: right;
+    background-color: #f1efefad;
+}
+
+article p {
+    float: right;
+    width: 90%;
+}
+
+#Bebida {
+    float: left;
+    
+}
+
+article h2 {
+    margin-bottom: 26px;
+    color: #e67d45;
+    font-size: 30px;
+    display: inline-block ;
+    border-bottom: 2px solid;
+    width: 100%;
+    text-align: center;
+}
+
+article:last-child h2 {
+    color: #7FC4CE;
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.Derechos-Foot {
+    float: left;
+    padding-inline-start: 100px;
+}
+
+.Info-Foot {
+    float: right;
+    padding-inline-end: 200px;
+}
+.icon-cart{
+    position: relative;
+    width: 50px;
+}
+.icon-cart span{
+    position: absolute;
+    background-color: red;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #fff;
+    top: 50%;
+    right: -20px;
+}
+.title{
+    font-size: xx-large;
+}
+
+.cartTab{
+    width: 400px;
+    max-width: 100%;
+    background-color: #353432;
+    color: #eee;
+    position: fixed;
+    top: 0;
+    right: 0px;
+    bottom: 0;
+    display: grid;
+    grid-template-rows: 70px 1fr 70px;
+}
+.cartTab h1{
+    padding: 20px;
+    margin: 0;
+    font-weight: 300;
+}
+.cartTab .btn{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.cartTab button{
+    background-color: #E8BC0E;
+    border: none;
+    font-family: Poppins;
+    font-weight: 500;
+    cursor: pointer;
+}
+.cartTab .close{
+    background-color: #eee;
+}
+.listCart{
+    overflow: auto;
+}
+.listCart::-webkit-scrollbar{
+    width: 0;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 800px) {
+    body {
+        margin: 20px;
+        padding-bottom: 300%;
+    }
+
+
+    header {
+        width: 100%;
+    }
+
+
+    main {
+        width: 100%;
+    }
+
+    .article h2 {
+        font-size: 20px;
+    }
+
+    aside {
+        width: 100%;
+    }
+
+    .Derechos-Foot {
+        float: left;
+        
+    }
+
+    .Info-Foot {
+        float: right;
+    }
+
+    .logo img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .menu-icon {
+        cursor: pointer;
+      }
+      
+      .menu {
+        display: none;
+      }
+      
+      .menu ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+      
+      .menu ul li {
+        display: block;
+        margin-bottom: 10px;
+      }
+      
+      .menu ul li a {
+        text-decoration: none;
+        color: #333;
+        font-weight: bold;
+      }
+
+      .Container{
+        margin-bottom: -20%;
+      }
+
+
+
+}
