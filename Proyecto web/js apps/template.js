@@ -1,5 +1,5 @@
 const loadTemplate = () => {
-    fetch('/template.html')
+    fetch('./template.html')
     .then(response => response.text())
     .then(html => {
         app.innerHTML = html;

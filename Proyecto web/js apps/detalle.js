@@ -1,12 +1,12 @@
-import products from '../js apps/productos.js';
-import cart from '../js apps/carrito.js';
+import products from './js apps/productos.js';
+import cart from './js apps/carrito.js';
 
 let listProduct = document.getElementById('listProduct');
 let app = document.getElementById('app');
 let temporaryContent = document.getElementById('temporaryContent');
 
 const loadTemplate = () => {
-    fetch('/template.html')
+    fetch('./template.html')
     .then(response => response.text())
     .then(html => {
         app.innerHTML = html;

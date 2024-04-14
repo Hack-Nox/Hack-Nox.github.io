@@ -1,4 +1,4 @@
-import products from '../js apps/productos.js';
+import products from './productos.js';
 const cart = () => {
     let listCartHTML = document.querySelector('.listCart');
     let iconCart = document.querySelector('.icon-cart');

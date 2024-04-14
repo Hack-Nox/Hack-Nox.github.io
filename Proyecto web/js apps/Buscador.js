@@ -1,4 +1,4 @@
-import products from '../js apps/productos';
+import products from './js apps/productos';
 
 const searchInput = document.getElementById('searchInput');
 const productsList = document.getElementById('productsList');
