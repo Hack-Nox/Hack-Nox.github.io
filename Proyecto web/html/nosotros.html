@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VeggiFresh</title>
+    <link rel="stylesheet" href="/Proyecto web/css/StyleNosotros.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.css" rel="stylesheet">
+    
+</head>
+
+<body>
+    <header>
+        <div id="app"></div>
+    </header>
+
+            
+    <div>
+        <section id="presentacion" class="section">
+            <div class="caja">
+                <h2>Bienvenido a VeggiFresh</h2>
+                <video width="640" height="360" controls>
+                    <source src="../video/VideoVeggiFresh.mp4" type="video/mp4">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+
+                <p>Somos una tienda dedicada a ofrecerte productos frescos y de alta calidad para tu bienestar y salud.</p>
+            </div>
+
+            <div class="contenedorM">
+                <div id="map"></div>
+            </div>
+
+        </section>
+
+        <section id="historia" class="section">
+            <div class="caja">
+                <h2>Nuestra Historia</h2>
+                <h2>Escucha nuestra historia</h2>
+                <audio controls>
+                    <source src="../Sonidos/Historia.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+
+                <p>En una tarde soleada de domingo, mientras Brandon Barrantes y su amigo, Lesvin, disfrutaban de un delicioso batido de frutas en el jardín trasero de la casa de Brandon, la idea de VeggiFresh comenzó a tomar forma.
+
+                    Brandon, un ingeniero de software apasionado por la salud y la nutrición, siempre había soñado con crear un negocio que combinara su amor por la tecnología con su deseo de promover hábitos alimenticios saludables. Lesvin, por otro lado, era un entusiasta de la cocina y un defensor de los productos locales y frescos.
+
+                    Mientras charlaban sobre sus pasiones y sueños, Brandon propuso la idea de fundar VeggiFresh: una empresa dedicada a proporcionar frutas y verduras frescas de alta calidad, cultivadas localmente, junto con opciones de batidos saludables y gratuitos para los clientes. La visión de VeggiFresh era simple pero poderosa: hacer que la alimentación saludable fuera accesible para todos y promover un estilo de vida más activo y consciente.
+
+                    Con entusiasmo, Brandon y Lesvin comenzaron a trabajar en el plan de negocio para VeggiFresh. Investigaron proveedores de frutas y verduras locales, diseñaron recetas de batidos nutritivos y deliciosos, y desarrollaron una plataforma en línea fácil de usar para que los clientes pudieran hacer pedidos y acceder a recursos de salud y bienestar.
+
+                    Después de meses de arduo trabajo y dedicación, VeggiFresh finalmente abrió sus puertas. La tienda, ubicada en el corazón de la ciudad, se convirtió rápidamente en un destino popular para aquellos que buscaban alimentos frescos y opciones saludables. La vibrante selección de frutas y verduras coloridas y la irresistible fragancia de los batidos recién preparados atrajeron a clientes de todas partes.
+
+                    Pero para Brandon y Lesvin, VeggiFresh era más que un simple negocio; era un sueño hecho realidad. Se enorgullecían de proporcionar productos frescos y saludables a su comunidad, y se inspiraban en ver cómo sus clientes adoptaban hábitos alimenticios más saludables y se convertían en versiones más saludables y felices de sí mismos.
+
+                    Con el tiempo, VeggiFresh se convirtió en mucho más que una tienda de comestibles; se convirtió en un centro de bienestar comunitario, donde la gente podía conectarse, aprender y crecer juntos. Brandon y Lesvin miraban hacia el futuro con emoción, sabiendo que VeggiFresh seguía siendo solo el comienzo de su viaje hacia un mundo más saludable y sostenible.</p>
+            </div>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <div class="container-Footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Contacto</h3>
+                    <p>Dirección: Av. Principal 123, Ciudad XYZ</p>
+                    <p>Teléfono: +123 456 789</p>
+                    <p>Email: info@tudominio.com</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Redes Sociales</h3>
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a href="#">Facebook</a></li>
+                        <li class="list-inline-item"><a href="#">Twitter</a></li>
+                        <li class="list-inline-item"><a href="#">Instagram</a></li>
+                        <li class="list-inline-item"><a href="#">LinkedIn</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-left">
+                    <h3>Suscríbete a nuestro boletín</h3>
+                    <p>Recibe nuestras últimas noticias directamente en tu bandeja de entrada.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v3.2.0/mapbox-gl.js"></script>
+    <script src="../js apps/ApiMapa.js"></script>
+    <script src="../js apps/templateNav.js"></script>
+    <script src="../js apps/template.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

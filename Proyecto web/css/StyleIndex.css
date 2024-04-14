@@ -1,0 +1,148 @@
+/* Estilo para el fondo del navegador */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+
+.carousel-item img {
+    object-fit: cover; /* El ancho que desees */
+    height: 400px; /* Esto mantiene la proporción de aspecto */
+}
+
+.carousel-caption {
+    position: absolute;
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    padding: 20px;
+  }
+  
+  .carousel-caption h3 {
+    font-size: 24px;
+  }
+  
+  .carousel-caption p {
+    font-size: 18px;
+  }
+  
+
+.Container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    align-items: center;
+    margin-bottom: 70%;
+}
+
+aside {
+    width: 30%;
+    margin-right: 3px;
+    text-align: justify;
+    float: left;
+    margin-bottom: 12px;
+    background-color: #f1efefad;
+    padding: 16px;
+    border: 1px solid #ccc;
+}
+
+header img {
+    width: 200px;
+}
+
+aside h1 {
+    text-align: left;
+}
+
+aside h2 {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 12px;
+    text-align: left;
+    cursor: pointer;
+}
+
+aside p {
+    font-weight: bold;
+    font-size: medium;
+    color: #7a6d6d;
+}
+
+aside h2:hover {
+    text-decoration: underline;
+}
+
+main {
+    margin: 0;
+    width: 65%;
+    float: right;
+    background-color: #f1efefad;
+}
+
+article p {
+    float: right;
+    width: 90%;
+}
+
+article h2 {
+    margin-bottom: 26px;
+    font-size: 30px;
+    display: inline-block ;
+    border-bottom: 2px solid;
+    width: 100%;
+    text-align: center;
+}
+
+article:last-child h2 {
+    color: #000000;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    right: 0;
+}
+
+.Derechos-Foot {
+    float: left;
+    padding-inline-start: 100px;
+}
+
+.Info-Foot {
+    float: right;
+    padding-inline-end: 200px;
+}
+
+/* Media Queries para Responsividad */
+@media only screen and (max-width: 800px) {
+    .Container {
+        margin-bottom: -20%;
+    }
+    aside {
+        width: 100%;
+    }
+    main {
+        width: 100%;
+    }
+    aside, main {
+        float: none;
+    }
+    header img {
+        width: 100%;
+    }
+    .Derechos-Foot, .Info-Foot {
+        float: none;
+        padding-inline-start: 0;
+        padding-inline-end: 0;
+    }
+    footer {
+        position: relative;
+    }
+}
